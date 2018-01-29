@@ -1,0 +1,44 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.top_head {
+	border-bottom: 4px solid #02b3e4;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.headerlogo {
+	height: 150px;
+}
+
+.header_box {
+	text-align: right;
+}
+
+.header_name {
+	font-family: Raleway, sans-serif;
+	font-weight: 100;
+	margin-top: 44px;
+	}
+
+.header_label {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.featured_work {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	color: #7d97ad;
+}
+
+.galleryImg {
+text-align: center;
+}
+
+.caption p {
+	font-style: italic;
+}
