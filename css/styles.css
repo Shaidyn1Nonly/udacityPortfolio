@@ -7,33 +7,37 @@ nav, footer {
   background: #02b3e4;
 }
 
+.contact-nav ul{
+  padding-right: 190px;
+}
 /**********/
 
 /* Header */
 
 /**********/
 
-.top_head {
+.top-head {
   border-bottom: 4px solid #02b3e4;
   padding-bottom: 15px;
   margin-bottom: 20px;
 }
 
 .headerlogo {
-  height: 150px;
+  margin-top: 20px;
+  height: 100px;
 }
 
-.header_box {
+.header-box {
   text-align: right;
 }
 
-.header_name {
+.header-name {
   font-family: Raleway, sans-serif;
   font-weight: 100;
   margin-top: 44px;
 }
 
-.header_label {
+.header-label {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   margin-top: 10px;
@@ -64,7 +68,7 @@ nav a:hover {
 }
 
 nav a:visited {
-  color: #2d3c49;
+  color: lightgray;
 }
 
 /******************/
@@ -96,6 +100,10 @@ nav a:visited {
 
 /**********/
 
+.contact-form {
+  background-color: #f2f2f2;
+}
+
 label {
   color: #2d3c49;
   font-family: Raleway, sans-serif;
@@ -104,12 +112,17 @@ label {
   padding-bottom: 5px;
 }
 
-.col {
+.email-col, .name-col {
   padding-bottom: 10px;
 }
 
 .fields {
   padding: 10px 10px;
+}
+
+.btn {
+  background-color: lightgray;
+  color: #7d97ad;
 }
 
 /************/
@@ -121,6 +134,11 @@ label {
 footer {
   padding: 10px;
   text-align: center;
+}
+
+.rights {
+  padding-top: 10px;
+  color: lightgray;
 }
 
 .icons {

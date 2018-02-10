@@ -1,118 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<title>Shaidyn's Portfolio</title>
 	<link href="css/styles.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navbar">
-		<div class="container">
-			<ul class="contact_link">
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<header>
-		<div class="container">
-			<div class="row top_head">
-				<div class="col-md-4 logo">
-					<img class="headerlogo" src="img/udacityLogo.png" alt="logo for	Udacity">
+
+	<div class="container-fluid">
+		<nav class="nav-bar">
+			<div class="row">
+				<div class="col-sm-6 col-md-8"></div>
+				<div class="col-sm-6 col-md-4 contact-nav">
+					<ul class="contact-link">
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
 				</div>
-				<div class="col-md-8 header_box">
-					<h1 class="header_name">Shaidyn Diaz-Mahabir</h1>
-					<h3 class="header_label">Front-End Web Ninja &amp; Outdoors enthusiast</h3>
-				</div>
+			</div>
+		</nav>
+	</div>
+
+	<header class="container">
+		<div class="row top-head">
+			<div class="col-sm-3 logo"><img alt="logo for Udacity" class="headerlogo" src="img/udacityLogo.png"></div>
+			<div class="col-md-9 header-box">
+				<h1 class="header-name">Shaidyn Diaz-Mahabir</h1>
+				<h3 class="header-label">Front-End Web Ninja &amp; Outdoors enthusiast</h3>
 			</div>
 		</div>
 	</header>
-	<main class="container">
-		<div class="lrg_image">
-			<img src="img/outdoorsShay.JPG" alt="picture in the sun" width="100%">
-		</div>
-		<section class="featured_work_section">
-			<h2 class="headline">Featured Work</h2>
-			<div class="row">
-				<div class="col-md-4 gallerytext">
-					<div class="thumbnail">
-						<a href="https://unsplash.com/search/photos/peak-district%2C-sheffield%2C-united-kingdom" target="_blank">
-								<img src="img/onEdge.jpeg" alt="Lights">
-						<div class="caption">
-							<h3>CLIFF</h3>
-							<p>Peak District, Sheffield, UK</p>
-						</div>
-						</a>
-					</div>
+
+	<div class="container">
+		<div class="row">
+			<figure>
+				<div class="col-sm-12">
+					<div class="lrg_image col-sm-12 col-md-12"><img alt="picture of me canoeing" src="img/outdoorsShay.JPG" width="100%"></div>
 				</div>
-				<div class="col-md-4 gallerytext">
-					<div class="thumbnail">
-						<a href="https://unsplash.com/photos/d3fZSXlJ3Ok" target="_blank">
-								<img src="img/jumping.jpeg" alt="Nature">
-						<div class="caption">
-							<h3>LAKE</h3>
-							<p>Yosemite Valley, USA</p>
-						</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 gallerytext">
-					<div class="thumbnail">
-						<a href="https://unsplash.com/photos/WeYamle9fDM" target="_blank">
-								<img src="img/mountains.jpeg" alt="canyon">
-						<div class="caption">
-							<h3>CAVE</h3>
-							<p>Lower Antelope Canyon, Page, USA</p>
-						</div>
-						</a>
-					</div>
+			</figure>
+		</div><!--Gallery Starts-->
+
+		<section class="featured-work-section">
+			<div class="container">
+				<div class="row">
+					<header class="col-sm-12 col-lg-12">
+						<h2 class="headline">Featured Work</h2>
+					</header>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/search/photos/peak-district%2C-sheffield%2C-united-kingdom" target="_blank"><img alt="Cliff on Peak District, Sheffield UK" src="img/onEdge.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>CLIFF</h3>
+								<p>Peak District, Sheffield, UK</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/d3fZSXlJ3Ok" target="_blank"><img alt="lake and montains in yosemite Valley, USA" src="img/jumping.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>LAKE</h3>
+								<p>Yosemite Valley, USA</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/WeYamle9fDM" target="_blank"><img alt="Red Cave in lower antelope canyon, USA" src="img/mountains.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>CAVE</h3>
+								<p>Lower Antelope Canyon, Page, USA</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/gjDqRJW2HPU" target="_blank"><img alt="venice waters between town" src="img/venice.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>ISLAND</h3>
+								<p>venice. Italy</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+			</div><!--End of first row of gallery-->
+
+			<div class="row">
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/7WImcXVzyHk" target="_blank"><img alt="Pier in Thailand" src="img/thailand.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>PIER</h3>
+								<p>Tambon Ko Yao Yai, Thailand</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/O3qEc4dOWkM" target="_blank"><img alt="mountain with rushing water" src="img/newzealand.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>MOUNTAINS</h3>
+								<p>Fiordland National Park, New Zealand</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<figure>
+								<a href="https://unsplash.com/photos/94l4mAcTk8M" target="_blank"><img alt="volcano with smoke coming out" src="img/volcanoe.jpeg"></a>
+							</figure>
+							<figcaption class="caption">
+								<h3>VOLCANOE</h3>
+								<p>Mount Bromo, Indonesia</p>
+							</figcaption>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-3 gallerytext">
+					<article>
+						<div class="thumbnail">
+							<a href="https://unsplash.com/photos/d3fZSXlJ3Ok" target="_blank"><img alt="Nature" src="img/jumping.jpeg">
+							<div class="caption">
+								<h3>LAKE</h3>
+								<p>Yosemite Valley, USA</p>
+							</div></a>
+						</div>
+					</article>
+				</div>
+			</div><!--End of second row of gallery-->
 		</section>
-		<div class="contact" id="contact">
-			<form action="#" method="post">
-				<div class="container">
-					<fieldset>
+	</div>
+
+	<div class="contact-form" id="contact">
+		<form action="#" method="post">
+			<div class="container">
+				<div class="row">
+					<fieldset class="col-sm-12 col-md-12">
 						<h2 class="headline">Contact Me</h2>
 						<p>I would love to hear from you</p>
 						<div class="fields">
-							<div class="col">
-								<label for="name">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Name">
+							<div class="name-col">
+								<label for="name">Name</label> <input class="form-control" id="name" placeholder="Name" type="text">
 							</div>
-							<div class="col">
-								<label for="inputEmail4">Email</label>
-								<input type="email" id="inputEmail4" class="form-control" placeholder="Email">
+							<div class="email-col">
+								<label for="inputEmail4">Email</label> <input class="form-control" id="inputEmail4" placeholder="Email" type="email">
 							</div>
 							<div class="form-group">
 								<label for="exampleFormControlTextarea1">Ask me Anything</label>
 								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 							</div>
+							<button type="button" class="btn btn-secondary btn-lg btn-block">Submit</button>
 						</div>
 					</fieldset>
 				</div>
-			</form>
-		</div>
-	</main>
-	<div>
-		<footer class="footer">
-			<div class="footer-content">
-				<div class="footer-top">
+			</div>
+		</form>
+	</div>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="rights col-sm-6 col-lg-6">
 					<p class="footer-links">Shaidyn Mahabir Portolio © 2018</p>
 				</div>
-				<div class="icons">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
+				<div class="col-sm-6 col-lg-6">
+					<div class="icons">
+						<a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-github"></i></a> <a href="#"><i class="fa fa-facebook"></i></a>
+					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
-</body>
+		</div>
+	</footer>
 
+</body>
 </html>
